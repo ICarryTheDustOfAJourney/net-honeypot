@@ -1,0 +1,29 @@
+{
+  "name": "nethoneypot",
+  "version": "1.0.0",
+  "description": "honeypot for portscanners",
+  "main": "index.js",
+  "keywords": [
+    "honeypot",
+    "network",
+    "ports",
+    "monitor"
+  ],
+  "author": "Volker Kinkelin",
+  "license": "ISC",
+  "devDependencies": {},
+  "eslintConfig": {
+    "env": {
+      "node": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 6
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+      "linebreak-style": ["error", "unix"],
+      "quotes": ["error", "double"],
+      "semi": ["error", "always"]
+    }
+  }
+}
