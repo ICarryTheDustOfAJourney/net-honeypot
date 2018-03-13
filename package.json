@@ -1,6 +1,6 @@
 {
-  "name": "nethoneypot",
-  "version": "1.0.0",
+  "name": "net-honeypot",
+  "version": "1.0.1",
   "description": "honeypot for portscanners",
   "main": "index.js",
   "keywords": [
@@ -9,6 +9,10 @@
     "ports",
     "monitor"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ICarryTheDustOfAJourney/net-honeypot.git"
+  },
   "author": "Volker Kinkelin",
   "license": "ISC",
   "devDependencies": {},
