@@ -1,6 +1,6 @@
 {
   "name": "net-honeypot",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "honeypot for portscanners",
   "main": "index.js",
   "keywords": [
@@ -25,9 +25,18 @@
     },
     "extends": "eslint:recommended",
     "rules": {
-      "linebreak-style": ["error", "unix"],
-      "quotes": ["error", "double"],
-      "semi": ["error", "always"]
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "quotes": [
+        "error",
+        "double"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ]
     }
   }
 }
