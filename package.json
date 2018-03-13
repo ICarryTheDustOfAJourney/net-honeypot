@@ -1,6 +1,6 @@
 {
   "name": "net-honeypot",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "honeypot for portscanners",
   "main": "index.js",
   "keywords": [
@@ -9,13 +9,21 @@
     "ports",
     "monitor"
   ],
+  "scripts": {
+    "start": "node index.js"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ICarryTheDustOfAJourney/net-honeypot.git"
+    "url": "https://github.com/ICarryTheDustOfAJourney/net-honeypot"
+  },
+  "bugs": {
+    "url": "https://github.com/ICarryTheDustOfAJourney/net-honeypot/issues"
   },
   "author": "Volker Kinkelin",
+  "private": false,
   "license": "ISC",
   "devDependencies": {},
+  "dependencies": {},
   "eslintConfig": {
     "env": {
       "node": true
