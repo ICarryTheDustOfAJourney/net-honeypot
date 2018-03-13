@@ -1,6 +1,6 @@
 {
   "name": "net-honeypot",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "honeypot for portscanners",
   "main": "index.js",
   "keywords": [
