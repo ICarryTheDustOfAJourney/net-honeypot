@@ -1,6 +1,4 @@
-/*  network honeypot configuration file
-
-  change parameters to suit your needs here
+/*  network honeypot class definition
 
 */
 const fs = require("fs"); // =filestuff
@@ -238,6 +236,7 @@ class BlackWhiteList {
    */
   checkAddWhiteClient(socket, client) {
 
+    // no white sequence defined -> can't add
     if (this.myConfig.whiteSequence.length < 1)
       return;
 
