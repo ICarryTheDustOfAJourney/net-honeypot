@@ -1,6 +1,6 @@
 {
   "name": "net-honeypot",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "detect port scans",
   "scripts": {
     "start": "node index.js",
