@@ -17,16 +17,14 @@ One can understand a port number (or a sequence) as a key to an otherwise hidden
 Friendly users usually know your service's port number by heart (...or link or bookmark).
 
 ## Installation
-cd into installation directory, then
-
 ```bash
-    npm install net-honeypot
+git clone git://github.com/ICarryTheDustOfAJourney/net-honeypot.git && cd net-honeypot
 ```
-...yes, this app needs no other packages,
+...yes, this application needs no packages.
 
 ## Usage
 ```bash
-    node index.js
+node index.js
 ```
 ## Test
 
@@ -57,7 +55,7 @@ You will need to implement this behaviour into your client-app, when using white
 
 The black-/white-list files (JSON, names specified in config.js) will be updated and have to be read by your service, eg prior to serviceing log-in requests.
 
-After a (adjustable) time-out period, visitors disappear from both lists. Entries in `list_white.json` will also appear in `list_black.json`. Make sure decide upon the white list first in your service.
+After a (adjustable) time-out period, visitors disappear from both lists. Entries in `list_white.json` will also appear in `list_black.json`. Read the white list first in your service. If an IP-address appears here, its a friend.
 
 Now modify config.js to match your needs (self-explaining, port# etc.)
 
