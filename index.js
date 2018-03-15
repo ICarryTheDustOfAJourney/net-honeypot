@@ -96,6 +96,12 @@ const main = () => {
    */
   const connectionListener = (socket) => {
 
+    // ignore errors
+    socket.on("error", () => {
+
+    });
+
+    // search client by IP-address in blacklist
     let client = blackList.find(socket.remoteAddress);
 
     // not found -> add
@@ -199,7 +205,7 @@ const main = () => {
 };
 
 // explain what you do
-myConsole.log("\nnetwork honeypot V1.0.0 by Volker Kinkelin, configuration is\n%o\n", config);
+myConsole.log("\nnetwork honeypot V1.0.5 by Volker Kinkelin, configuration is\n%o\n", config);
 
 // now start the whole thing
 main();
